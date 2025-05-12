@@ -11,7 +11,7 @@ app.get('/api/country', async (req, res) => {
     const country = response.data.country_name;
 
     res.json({
-      country: country,
+      country: country, ade
     });
   } catch (error) {
     console.error(error.message);
